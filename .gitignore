@@ -1,0 +1,30 @@
+# Ignore environment variable files in client and server
+client/.env
+server/.env
+
+# Ignore node_modules in client and server
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build/dist folders (if any)
+client/dist/
+client/build/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Dependency directories (if present outside client/server)
+node_modules/
+
+# Optional: lock files if you want to ignore, usually better to keep them
+# package-lock.json
+# yarn.lock
