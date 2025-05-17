@@ -13,7 +13,7 @@ const AppContextProvider = (props)=>{
     const [credit, setCredit] = useState(false)  
     const backendUrl = import.meta.env.VITE_BACKEND_URL
 
-    const navigate = useNavigate
+    const navigate = useNavigate()
 
     const loadCreditsData = async ()=>{
         try {
@@ -31,7 +31,8 @@ const AppContextProvider = (props)=>{
 
     const generateImage = async (prompt) => {
         try {
-            await axios.post(backendUrl + '/api/image/generate-image', {prompt}, {headers: {token}})
+            console.log(prompt)
+            const {data} = await axios.post(backendUrl + '/api/image/generate-image', {prompt}, {headers: {token}})
 
             if(data.success){
                 loadCreditsData()
