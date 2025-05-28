@@ -60,7 +60,7 @@
 
 🔧 Step 1: Clone the Repository
 ```
-git clone https://github.com/Kreshipatel/Imagify.git
+git clone https://github.com/Sneh0510/Imagify.git
 cd imagify
 ```
 
