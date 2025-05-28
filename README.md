@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-🌐 Check out the live version here: [Imagify](https://spotify-clone-henna-tau.vercel.app/)
+🌐 Check out the live version here: [Imagify](https://imagify-rho-three.vercel.app/)
 
 ---
 
