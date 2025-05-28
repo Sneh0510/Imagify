@@ -81,11 +81,11 @@ npm run dev
 Frontend will run at http://localhost:5173
 
 💬 How It Works
-User signs in using Clerk.
-Enters a text prompt to generate an image.
-Backend sends the prompt to the ClipDrop API.
-Generated image is returned and displayed.
-User can purchase more credits via Razorpay.
+- User signs in using Clerk.
+- Enters a text prompt to generate an image.
+- Backend sends the prompt to the ClipDrop API.
+- Generated image is returned and displayed.
+- User can purchase more credits via Razorpay.
 
 📸 Example Prompt
 "A majestic lion wearing sunglasses in a neon-lit jungle"
