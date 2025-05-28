@@ -57,7 +57,7 @@ VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
 
 ```bash
 🔧 Step 1: Clone the Repository
-git clone https://github.com/Kreshipatel/Imagify.git
+git clone https://github.com/Sneh0510/Imagify.git
 cd imagify
 
 🔙 Step 2: Setup and Run the server
