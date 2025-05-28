@@ -28,17 +28,17 @@
 ### 🔑 Server .env
 
 env
-CLIPDROP_API_KEY=your_clipdrop_api_key
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-JWT_SECRET=your_jwt_secret
-MONGODB_URI=your_mongodb_connection_string
+- CLIPDROP_API_KEY=your_clipdrop_api_key
+- RAZORPAY_KEY_ID=your_razorpay_key_id
+- RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+- JWT_SECRET=your_jwt_secret
+- MONGODB_URI=your_mongodb_connection_string
 
 ### 🔑 Client .env
 
 env
-VITE_BACKEND_URL = your_backend_url
-VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
+- VITE_BACKEND_URL = your_backend_url
+- VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
 
 
 ## 🚀 How to Run the Project
