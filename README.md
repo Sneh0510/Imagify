@@ -58,19 +58,22 @@
 ### 🔧 Steps to run the project
 
 
-```🔧 Step 1: Clone the Repository
+🔧 Step 1: Clone the Repository
+```
 git clone https://github.com/Kreshipatel/Imagify.git
 cd imagify
 ```
 
-```🔙 Step 2: Setup and Run the server
+🔙 Step 2: Setup and Run the server
+```
 cd server
 npm install
 npm run server
 ```
 Server will run at http://localhost:5000
 
-```🎨 Step 3: Setup and Run the Frontend
+🎨 Step 3: Setup and Run the Frontend
+```
 cd ../client
 npm install
 npm run dev
