@@ -70,7 +70,7 @@ cd server
 npm install
 npm run server
 ```
-Server will run at http://localhost:5000
+Server will run at http://localhost:4000
 
 🎨 Step 3: Setup and Run the Frontend
 ```
