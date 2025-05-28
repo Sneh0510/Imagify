@@ -4,6 +4,12 @@
 
 ---
 
+## 🔗 Live Demo
+
+🌐 Check out the live version here: [Imagify](https://spotify-clone-henna-tau.vercel.app/)
+
+---
+
 ## 🌟 Features
 
 - 🔐 User authentication (login/signup/logout)
