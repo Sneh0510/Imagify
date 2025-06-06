@@ -87,7 +87,7 @@ npm run dev
 Frontend will run at http://localhost:5173
 
 💬 How It Works
-- User signs in using Clerk.
+- User signs in.
 - Enters a text prompt to generate an image.
 - Backend sends the prompt to the ClipDrop API.
 - Generated image is returned and displayed.
