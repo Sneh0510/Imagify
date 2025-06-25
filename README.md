@@ -95,3 +95,7 @@ Frontend will run at http://localhost:5173
 
 📸 Example Prompt
 "A majestic lion wearing sunglasses in a neon-lit jungle"
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
