@@ -4,6 +4,7 @@ import 'dotenv/config'
 import connnectDB from './config/mongodb.js'
 import userRouter from './routes/userRoutes.js'
 import imageRouter from './routes/imageRoutes.js'
+import videoRouter from './routes/videoRoutes.js'
 
 const PORT = process.env.PORT || 4000
 const app = express()
@@ -14,6 +15,7 @@ await connnectDB()
 
 app.use('/api/user',userRouter)
 app.use('/api/image',imageRouter)
+app.use('/api/video', videoRouter)
 app.get('/', (req, res)=> res.send("API working good"))
 
 app.listen(PORT, ()=> console.log('Server running on port '+ PORT))

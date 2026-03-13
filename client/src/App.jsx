@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Login from './components/Login'
 import { AppContext } from './context/AppContext'
+import Video from './pages/Video';
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/result' element={<Result />} />
+        <Route path="/video" element={<Video />} />
         <Route path='/buy' element={<BuyCredit />} />
       </Routes>
       <Footer />
